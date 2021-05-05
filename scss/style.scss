@@ -1,0 +1,56 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+    box-sizing:         border-box;
+    margin:             0;
+    padding:            0;
+    background-color: #dfe0dd; //464646
+    display:            flex;
+    justify-content:    center;
+}
+
+main {
+    width:              75%;
+    background-color: #fff;
+}
+
+.navbar {
+    &__logo {
+        width:          30px;
+        height:         auto;
+    }
+}
+
+.jumbotron {
+    background-image:       url('../img/jambotron-bckg1-alpha.jpg');
+    background-size:        cover;
+    background-repeat:      no-repeat;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items:flex-end;
+    }
+
+    &__title {
+        text-transform:     capitalize;
+        font-family:        'Sail', cursive;
+        font-size:          85px;
+        letter-spacing:     15px;
+        color:              #000;
+    }
+
+    &__lead {
+        font-family: 'Courgette', cursive;
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+}
+
+#qr-reader {
+    width: 280px;
+    height: 230px;
+}
