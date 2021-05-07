@@ -1,6 +1,7 @@
 @import "../node_modules/normalize-scss/sass/normalize/import-now";
 @import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
 
 body {
     box-sizing:         border-box;
@@ -74,12 +75,38 @@ main {
 
     &__content {
         font-size:              17px;
-        line-height: 1.8em;
+        line-height:            1.8em;
+    }
+}
+
+.feaches {
+    &__bage {
+        text-transform:     capitalize;
+        font-size:          14px;
+        letter-spacing:     2px;
+    }
+}
+
+.service {
+    margin-top:     30px;
+
+    &__card {
+        margin:     auto !important;
+    }
+
+    &__logo {
+        height:     auto;
+        width:      50%;
+        margin:     auto;
+    }
+
+    &__title {
+        text-align:     center;
     }
 }
 
 #qr-reader {
     width:                  280px;
     min-height:             230px;
-    border:none !important;
+    border:                 none !important;
 }
