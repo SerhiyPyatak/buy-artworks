@@ -105,6 +105,15 @@ main {
     }
 }
 
+#event-section {
+    margin-top:         50px;
+}
+
+.eventblock {
+    display:            flex;
+    justify-content:    center;
+}
+
 #qr-reader {
     width:                  280px;
     min-height:             230px;
