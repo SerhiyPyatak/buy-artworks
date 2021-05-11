@@ -105,13 +105,24 @@ main {
     }
 }
 
-#event-section {
+#event-section, #blog-section {
     margin-top:         50px;
 }
 
 .eventblock {
     display:            flex;
     justify-content:    center;
+}
+
+.blog{
+    &__banner {
+        width:          100%;
+        height:         auto;
+    }
+
+    &__pagination {
+        margin-top:     40px;
+    }
 }
 
 #qr-reader {
