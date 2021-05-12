@@ -105,7 +105,7 @@ main {
     }
 }
 
-#event-section, #blog-section {
+.page-section {
     margin-top:         50px;
 }
 
@@ -122,6 +122,21 @@ main {
 
     &__pagination {
         margin-top:     40px;
+    }
+}
+
+.partnership {
+    &__icon {
+        font-size:      65px;
+        color:          aquamarine;
+    }
+
+    &__submit {
+        margin-left:    15px;
+    }
+
+    &__logo {
+        margin:         40px 5px 5px 5px;
     }
 }
 
