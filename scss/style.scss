@@ -140,6 +140,12 @@ main {
     }
 }
 
+.footer {
+    &__brand {
+        height: 100%;
+    }
+}
+
 #qr-reader {
     width:                  280px;
     min-height:             230px;
