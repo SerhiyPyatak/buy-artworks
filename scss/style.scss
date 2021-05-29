@@ -177,6 +177,20 @@ main {
 }
 
 @media (max-width: 720px) {
+    .navbar {
+        &__logo {
+            width: 20px;
+        }
+    }
+
+    .navbar-brand {
+        font-size: 1.16rem;
+    }
+
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+
     .jumbotron {
         &__title {
             font-size: 30px;
