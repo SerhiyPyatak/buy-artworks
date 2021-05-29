@@ -578,4 +578,32 @@ main {
   border: none !important;
 }
 
+@media (max-width: 1200px) {
+  .jumbotron__title {
+    font-size: 60px;
+  }
+  .jumbotron__lead {
+    font-size: 14px;
+  }
+}
+@media (max-width: 890px) {
+  .jumbotron__lead {
+    font-size: 11px;
+  }
+  .jumbotron__title {
+    font-size: 44px;
+  }
+}
+@media (max-width: 720px) {
+  .jumbotron__title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .jumbotron__title {
+    font-size: 25px;
+    margin: 1.65em 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

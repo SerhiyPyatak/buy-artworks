@@ -151,3 +151,44 @@ main {
     min-height:             230px;
     border:                 none !important;
 }
+
+@media (max-width:1200px) {
+    .jumbotron {
+        &__title {
+            font-size: 60px;
+        }
+
+        &__lead {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 890px) {
+    .jumbotron {
+        &__lead {
+            font-size: 11px;
+        }
+
+        &__title {
+            font-size: 44px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .jumbotron {
+        &__title {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .jumbotron {
+        &__title {
+            font-size: 25px;
+            margin: 1.65em 0;
+        }
+    }
+}
